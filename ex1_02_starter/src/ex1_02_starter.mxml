@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" 
+			   minWidth="955" minHeight="850">
+	<fx:Style source="Styles.css"/>
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:Label x="10" y="34" width="690" height="40" styleName="titleHeader"
+			 text="Employee Portal: Vehical Request Form"/>
+	<s:Form x="10" y="70">
+		<s:FormItem label="Employee:">
+			<s:DropDownList></s:DropDownList>
+		</s:FormItem>
+		<s:FormItem label="Office Phone:">
+			<s:DropDownList></s:DropDownList>
+		</s:FormItem>
+		<s:FormItem label="Mobile Phone:">
+			<s:DropDownList></s:DropDownList>
+		</s:FormItem>
+		<s:FormHeading label="Dates Requested"/>
+		<s:FormItem label="Pickup Date:">
+			<mx:DateChooser/>
+		</s:FormItem>
+		<s:FormItem label="Return Date:">
+			<mx:DateChooser/>
+		</s:FormItem>
+		<s:FormItem>
+			<s:Button label="Submit Request"/>
+		</s:FormItem>
+	</s:Form>
+
+</s:Application>

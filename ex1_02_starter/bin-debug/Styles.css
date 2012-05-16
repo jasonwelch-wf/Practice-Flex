@@ -1,0 +1,15 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+
+.titleHeader
+{
+	backgroundColor: #000000;
+	color: #FFFFFF;
+	fontSize: 16;
+	fontWeight: bold;
+	paddingLeft: 20;
+	verticalAlign: middle;
+}
+	

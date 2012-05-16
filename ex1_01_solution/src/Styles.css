@@ -1,0 +1,22 @@
+/* CSS file */
+
+/*
+This file was generated from Design mode and is used by the EmployeeDirectory.mxml file through the Style tag.
+*/
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+/*
+The titleHeader selector is applied to the "Employee Portal" Label control in the main application file using the styleName property.
+*/
+.titleHeader
+{
+	backgroundColor: #000000;
+	color: #FFFFFF;
+	fontSize: 16;
+	fontWeight: bold;
+	paddingLeft: 20;
+	textAlign: left;
+	verticalAlign: middle;
+}
+	
